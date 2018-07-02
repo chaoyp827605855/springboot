@@ -42,7 +42,7 @@ public class EmployeeController {
         for (Employee emp : emps) {
             System.out.println(emp);
         }
-
+        System.out.println("--------push--------------");
         return "list";
     }
 
